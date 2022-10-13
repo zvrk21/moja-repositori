@@ -47,3 +47,8 @@ console.log(typeof "false");
 console.log(typeof 56);
 
 console.log(true + true);
+var b = 1;
+var a = 0;
+a || b++;
+console.log(a);
+console.log(b);
